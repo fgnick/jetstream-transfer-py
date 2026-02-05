@@ -1,8 +1,12 @@
 # Zero-Copy Jetstream Transfer Engine
 
-A high-throughput, zero-copy file transfer engine built on Linux `sendfile`, designed to stream files directly from disk to network with minimal CPU overhead.
+A high-throughput, zero-copy file transfer engine, designed to stream files directly from disk to network with minimal CPU overhead.
 
 This repository serves as a reference implementation of a data-plane–oriented transfer pipeline using kernel-level I/O and Redis Streams for task coordination.
+
+(If you're dealing with deep-level performance issues or infrastructure constraints that align with what I'm exploring here, I’m open to technical discussions or short-term consulting to help solve specific problems.
+
+For inquiries, feel free to connect via LinkedIn.)
 
 ---
 
