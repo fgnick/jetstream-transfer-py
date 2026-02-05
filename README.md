@@ -34,7 +34,7 @@ Producer → Redis Stream → Consumer Group → Transfer Engine
 
 ## Key Features
 
-- True zero-copy file transfer using Linux `sendfile`
+- True zero-copy file transfer
 - No userspace buffering of file contents
 - Redis Streams consumer groups for reliable task dispatch
 - Connection pooling to reduce TCP handshake overhead
